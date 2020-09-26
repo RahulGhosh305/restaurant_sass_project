@@ -27,6 +27,14 @@
      margin: 0;
  }
 
+ .pad-70 {
+     padding: 70px 0px;
+ }
+
+ .mar-50 {
+     margin-bottom: 50px;
+ }
+
  /* * Header Style Start  * */
  .header-wrapper {
      width: 100%;
@@ -112,4 +120,7 @@
      @extend .site-heading;
      font-size: 30px;
      font-weight: 400;
+     letter-spacing: 4px;
  }
+
+ @import 'aboutus';
