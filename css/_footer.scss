@@ -1,0 +1,80 @@
+/** Footer **/
+footer {
+    font-family: $fontfamily-two;
+    color: #fff;
+    background-color: #222;
+    padding: 80px 0px;
+}
+
+.brand {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.line-space {
+    line-height: 30px;
+}
+
+.icons_social {
+    margin-top: 40px;
+    list-style-type: none;
+    display: flex;
+
+    .icon_list {
+        margin-right: 20px;
+
+        a {
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+
+        }
+    }
+}
+
+.contact-h {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+address {
+    line-height: 30px;
+}
+
+.payment {
+    text-transform: uppercase;
+
+    h4 {
+        margin-top: 10px;
+    }
+}
+
+.icons_payment {
+    list-style-type: none;
+    display: flex;
+
+    .icon_list {
+        margin-right: 20px;
+
+        a {
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+
+        }
+    }
+}
