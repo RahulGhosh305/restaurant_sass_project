@@ -110,7 +110,7 @@ p {
   letter-spacing: 4px;
 }
 
-.about-us-content-wrapper h1 {
+.about-us-content-wrapper h1, .menu-content-wrapper h1 {
   display: flex;
   justify-content: center;
   font-family: "Merienda", cursive;
@@ -118,7 +118,7 @@ p {
   text-transform: uppercase;
   color: #666;
 }
-.about-us-content-wrapper p {
+.about-us-content-wrapper p, .menu-content-wrapper p {
   margin-top: 15px;
   color: #666;
   font-size: 16px;
@@ -265,6 +265,61 @@ a:hover {
   cursor: pointer;
   color: #000;
   text-decoration: none;
+}
+
+/* * Menu Part * */
+.food_cate {
+  /** h3 **/
+  color: #555;
+  font-size: 30px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  display: inline-block;
+  font-family: "Merienda", cursive;
+  font-weight: 800;
+  margin-bottom: 25px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.food_cate:hover {
+  color: #fff;
+  background-color: #e24608;
+}
+
+.menu {
+  /** ul **/
+  list-style-type: none;
+}
+.menu_item {
+  /** Li **/
+  font-family: "Merienda", cursive;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+.menu_price {
+  /** span **/
+  font-size: 25px;
+  background-color: #e24608;
+  color: #fff;
+  border: 1px solid #e24608;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
