@@ -1,0 +1,77 @@
+/* * Offer Part * */
+.offer-wrapper {
+    width: 100%;
+    height: 525px;
+    background-image: url(../image/bg_2.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer-overlay {
+    /**Offer Overlay**/
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000, $alpha: 0.4) !important;
+    position: relative;
+}
+
+.offer {
+    /**Offer content**/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+
+    &-title {
+        /**h1**/
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: $fontfamily-two;
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    &-subtitle {
+        /**p**/
+        margin-bottom: 20px;
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+a[type="button"] {
+    /**linkstyle**/
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background-color: rgb(238, 163, 24);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
