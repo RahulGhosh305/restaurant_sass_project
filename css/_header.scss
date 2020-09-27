@@ -1,0 +1,88 @@
+/* * Header Style Start  * */
+.header-wrapper {
+    display: block;
+    width: 100%;
+    height: 625px;
+    background-image: url(../image/bg_1.jpg);
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000, $alpha: 0.6);
+}
+
+/** Navbar Style **/
+.navbar {
+    justify-content: center;
+    background-color: rgba($color: #000, $alpha: 0.4);
+
+    ul {
+        display: flex;
+        padding: 20px;
+        list-style-type: none;
+        margin-bottom: 0 !important;
+
+        li {
+            margin: 0px 5px;
+
+            a {
+                padding: 15px 20px;
+                border: 1px solid transparent;
+                font-family: $fontfamily-two;
+                text-decoration: none;
+                color: $header-wrapper;
+                font-size: 20px;
+                transition: 0.5s;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+
+                &:hover {
+                    color: #000;
+                    background-color: #ddd;
+                }
+            }
+        }
+    }
+}
+
+/* *Content Style* */
+.content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.site-heading {
+    /** h1 style **/
+    font-family: $fontfamily-two;
+    font-weight: 700;
+    text-align: center;
+    color: $header-wrapper;
+    font-size: 150px;
+}
+
+.site-para {
+    /** p style **/
+    @extend .site-heading;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
