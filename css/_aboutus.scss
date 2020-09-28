@@ -1,9 +1,10 @@
 .about-us-content-wrapper {
     h1 {
+        text-shadow: 2px 3px #e4bd52;
         display: flex;
         justify-content: center;
         font-family: $fontfamily-two;
-        font-weight: 400;
+        font-weight: 700;
         text-transform: uppercase;
         color: #666;
     }
@@ -86,8 +87,13 @@
 }
 
 .icon-text {
-    color: #666;
+    color: #444;
     font-family: $fontfamily-one;
     font-weight: 600;
     font-size: 18px;
+
+    p {
+        // font-size: 19px;
+        text-align: center;
+    }
 }

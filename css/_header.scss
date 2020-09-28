@@ -17,9 +17,18 @@
 }
 
 /** Navbar Style **/
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 .navbar {
     justify-content: center;
-    background-color: rgba($color: #000, $alpha: 0.4);
+    background-color: rgba($color: rgb(190, 171, 139), $alpha: 0.5);
 
     ul {
         display: flex;
@@ -32,11 +41,12 @@
 
             a {
                 padding: 15px 20px;
+                font-weight: 700;
                 border: 1px solid transparent;
                 font-family: $fontfamily-two;
                 text-decoration: none;
                 color: $header-wrapper;
-                font-size: 20px;
+                font-size: 22px;
                 transition: 0.5s;
                 border-radius: 20px;
                 -webkit-border-radius: 20px;
@@ -53,10 +63,12 @@
                     color: #000;
                     background-color: #ddd;
                 }
+
             }
         }
     }
 }
+
 
 /* *Content Style* */
 .content-wrapper {

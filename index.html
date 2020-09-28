@@ -45,16 +45,8 @@
     <!-- Header Start -->
     <header class="container-fluid">
       <div class="row">
-        <div class="header-wrapper">
+        <div class="header-wrapper" id="home">
           <div class="overlay">
-            <div class="navbar">
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-              </ul>
-            </div>
             <div class="content-wrapper">
               <h1 class="site-heading">Foodies</h1>
               <p class="site-para">Experience the testy of fresh foods.</p>
@@ -65,12 +57,31 @@
     </header>
     <!-- End Header -->
 
+    <!-- Navbar Start -->
+    <section class="container-fluid">
+      <navbar class="row">
+        <div class="col-md-12">
+          <nav class="fixed">
+            <div class="navbar" id="myHeader">
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </navbar>
+    </section>
+    <!-- End Navbar -->
+
     <!-- About Us Start -->
     <section class="about-us-wrapper pad-70">
       <div class="container">
         <div class="row mar-50">
           <div class="col-md-12">
-            <div class="about-us-content-wrapper">
+            <div class="about-us-content-wrapper" id="about">
               <h1>About Us</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
             </div>
@@ -112,7 +123,7 @@
                   <div class="fd-icon">
                     <i class="fa fa-truck fa-4x" aria-hidden="true"></i>
                   </div>
-                  Shipping
+                  <p>Shipping</p>
                 </div>
               </div>
               <div class="col-md-3">
@@ -120,7 +131,7 @@
                   <div class="fd-icon">
                     <i class="fa fa-comments fa-4x" aria-hidden="true"></i>
                   </div>
-                  Chatting
+                  <p>Chatting</p>
                 </div>
               </div>
               <div class="col-md-3">
@@ -131,7 +142,7 @@
                       aria-hidden="true"
                     ></i>
                   </div>
-                  Order
+                  <p>Order</p>
                 </div>
               </div>
               <div class="col-md-3">
@@ -139,7 +150,7 @@
                   <div class="fd-icon">
                     <i class="fa fa-life-ring fa-4x" aria-hidden="true"></i>
                   </div>
-                  24x7 &nbsp; Service
+                  <p>24x7 &nbsp; Service</p>
                 </div>
               </div>
             </div>
@@ -172,7 +183,7 @@
     <section class="container pad-70">
       <div class="row mar-50">
         <div class="col-md-12">
-          <div class="menu-content-wrapper">
+          <div class="menu-content-wrapper" id="menu">
             <h1>Food menu</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
           </div>
@@ -180,74 +191,160 @@
       </div>
       <div class="row mar-50">
         <div class="col-md-4">
-          <h3 class="food_cate">Breakfast</h3>
-          <ul class="menu">
-            <li class="menu_item">
-              Artisan breads <span class="menu_price">$29.99</span>
-            </li>
-            <li class="menu_item">
-              Pasta <span class="menu_price">$49.99</span>
-            </li>
-            <li class="menu_item">
-              Fried Rice <span class="menu_price">$99.99</span>
-            </li>
-            <li class="menu_item">
-              Pizza <span class="menu_price">$39.99</span>
-            </li>
-            <li class="menu_item">
-              Burger <span class="menu_price">$9.99</span>
-            </li>
-          </ul>
+          <div class="food_card">
+            <h3 class="food_cate">Breakfast</h3>
+            <ul class="menu">
+              <li class="menu_item">
+                Artisan breads <span class="menu_price">$29.99</span>
+              </li>
+              <li class="menu_item">
+                Pasta <span class="menu_price">$49.99</span>
+              </li>
+              <li class="menu_item">
+                Fried Rice <span class="menu_price">$99.99</span>
+              </li>
+              <li class="menu_item">
+                Pizza <span class="menu_price">$39.99</span>
+              </li>
+              <li class="menu_item">
+                Burger <span class="menu_price">$9.99</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-4">
-          <h3 class="food_cate">Lunches</h3>
-          <ul class="menu">
-            <li class="menu_item">
-              Biscuits and Gravy <span class="menu_price">$21.99</span>
-            </li>
-            <li class="menu_item">
-              Hot Dogs <span class="menu_price">$44.99</span>
-            </li>
-            <li class="menu_item">
-              Grilled Chicken <span class="menu_price">$79.99</span>
-            </li>
-            <li class="menu_item">
-              Alfredo Sauce <span class="menu_price">$35.99</span>
-            </li>
-            <li class="menu_item">
-              Muffins<span class="menu_price">$55.99</span>
-            </li>
-          </ul>
+          <div class="food_card">
+            <h3 class="food_cate">Lunches</h3>
+            <ul class="menu">
+              <li class="menu_item">
+                Biscuits and Gravy <span class="menu_price">$21.99</span>
+              </li>
+              <li class="menu_item">
+                Hot Dogs <span class="menu_price">$44.99</span>
+              </li>
+              <li class="menu_item">
+                Grilled Chicken <span class="menu_price">$79.99</span>
+              </li>
+              <li class="menu_item">
+                Alfredo Sauce <span class="menu_price">$35.99</span>
+              </li>
+              <li class="menu_item">
+                Muffins<span class="menu_price">$55.99</span>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-4">
-          <h3 class="food_cate">Dinners</h3>
-          <ul class="menu">
-            <li class="menu_item">
-              Burritos<span class="menu_price">$49.99</span>
-            </li>
-            <li class="menu_item">
-              Salad <span class="menu_price">$11.99</span>
-            </li>
-            <li class="menu_item">
-              Enchilada <span class="menu_price">$79.99</span>
-            </li>
-            <li class="menu_item">
-              Tacos <span class="menu_price">$19.99</span>
-            </li>
-            <li class="menu_item">
-              Cheesecake <span class="menu_price">$55.99</span>
-            </li>
-          </ul>
+          <div class="food_card">
+            <h3 class="food_cate">Dinners</h3>
+            <ul class="menu">
+              <li class="menu_item">
+                Burritos<span class="menu_price">$49.99</span>
+              </li>
+              <li class="menu_item">
+                Salad <span class="menu_price">$11.99</span>
+              </li>
+              <li class="menu_item">
+                Enchilada <span class="menu_price">$79.99</span>
+              </li>
+              <li class="menu_item">
+                Tacos <span class="menu_price">$19.99</span>
+              </li>
+              <li class="menu_item">
+                Cheesecake <span class="menu_price">$55.99</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
     <!-- End Menu -->
 
+    <!-- Photo Gallary Start -->
+    <section class="photo-gallary-wrapper">
+      <div class="container">
+        <div class="row mar-50">
+          <div class="col-md-12">
+            <div class="photo-content-wrapper" id="menu">
+              <h1>Photo Gallary</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <!-- isotope start -->
+            <div class="photo_menu portfolio_menu">
+              <ul>
+                <li class="active photo_menu_list" data-filter="*">All</li>
+                <li class="photo_menu_list" data-filter=".breakfast">
+                  Breakfast
+                </li>
+                <li class="photo_menu_list" data-filter=".lunches">Lunches</li>
+                <li class="photo_menu_list" data-filter=".dinner">Dinner</li>
+              </ul>
+            </div>
+
+            <!-- Content -->
+            <div class="photos portfolio_item">
+              <div class="photos_item breakfast element-item">
+                <img src="image/breakfast-1.jpg" alt="breakfast1" />
+              </div>
+              <div class="photos_item lunches element-item">
+                <img src="image/lunch-1.jpg" alt="lunches1" />
+              </div>
+              <div class="photos_item dinner element-item">
+                <img src="image/dinner-1.jpg" alt="dinner1" />
+              </div>
+              <div class="photos_item drink element-item">
+                <img src="image/drink-1.jpg" alt="drink1" />
+              </div>
+              <div class="photos_item breakfast element-item">
+                <img src="image/breakfast-2.jpg" alt="breakfast2" />
+              </div>
+              <div class="photos_item lunches element-item">
+                <img src="image/lunch-2.jpg" alt="lunches2" />
+              </div>
+              <div class="photos_item dinner element-item">
+                <img src="image/dinner-2.jpg" alt="dinner2" />
+              </div>
+              <div class="photos_item drink element-item">
+                <img src="image/drink-2.jpg" alt="drink2" />
+              </div>
+              <div class="photos_item breakfast element-item">
+                <img src="image/breakfast-3.jpg" alt="breakfast3" />
+              </div>
+              <div class="photos_item lunches element-item">
+                <img src="image/lunch-3.jpg" alt="lunches3" />
+              </div>
+              <div class="photos_item dinner element-item">
+                <img src="image/dinner-3.jpg" alt="dinner3" />
+              </div>
+              <div class="photos_item drink element-item">
+                <img src="image/drink-3.jpg" alt="drink3" />
+              </div>
+              <div class="photos_item breakfast element-item">
+                <img src="image/breakfast-4.jpg" alt="breakfast4" />
+              </div>
+              <div class="photos_item lunches element-item">
+                <img src="image/lunch-4.jpg" alt="lunches4" />
+              </div>
+              <div class="photos_item dinner element-item">
+                <img src="image/dinner-4.jpg" alt="dinner4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Photo Gallary -->
+
     <!-- Testimonial Start -->
     <section class="container-fluid mar-50">
       <div class="row mar-50">
         <div class="col-md-12">
-          <div class="test-content-wrapper">
+          <div class="test-content-wrapper" id="testimonials">
             <h1>Testimonial</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
           </div>
@@ -342,6 +439,14 @@
       </div>
     </footer>
     <!-- End Footer -->
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Isotope filter CDN-->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- isotope code -->
+    <script src="isotope.js"></script>
 
     <!-- Bootstrap JS links -->
     <script
