@@ -6,6 +6,9 @@
  $header-wrapper: #fff;
 
 
+ html {
+     scroll-behavior: smooth;
+ }
 
  * {
      margin: 0;
@@ -28,8 +31,12 @@
      margin: 0;
  }
 
- .pad-70 {
-     padding: 70px 0px;
+ .padT-80 {
+     padding-top: 85px;
+ }
+
+ .pad-80 {
+     margin: 80px 0px;
  }
 
  .mar-50 {
@@ -43,4 +50,5 @@
  @import 'menu';
  @import 'photoGallary';
  @import 'testimonial';
+ @import 'clients';
  @import 'footer';

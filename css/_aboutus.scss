@@ -1,5 +1,6 @@
 .about-us-content-wrapper {
     h1 {
+        font-size: 45px;
         text-shadow: 2px 3px #e4bd52;
         display: flex;
         justify-content: center;
@@ -10,10 +11,10 @@
     }
 
     p {
+        margin-top: 5px;
         font-family: $fontfamily-two;
-        margin-top: 15px;
         color: #666;
-        font-size: 16px;
+        font-size: 18px;
         letter-spacing: 1px;
         text-align: center;
     }
@@ -96,4 +97,8 @@
         // font-size: 19px;
         text-align: center;
     }
+}
+
+#space {
+    margin: 40px 0px;
 }

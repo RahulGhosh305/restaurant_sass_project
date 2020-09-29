@@ -1,4 +1,8 @@
 /* * Prototype* */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +24,12 @@ p {
   margin: 0;
 }
 
-.pad-70 {
-  padding: 70px 0px;
+.padT-80 {
+  padding-top: 85px;
+}
+
+.pad-80 {
+  margin: 80px 0px;
 }
 
 .mar-50 {
@@ -120,7 +128,8 @@ p {
   letter-spacing: 4px;
 }
 
-.about-us-content-wrapper h1, .test-content-wrapper h1, .photo-content-wrapper h1, .menu-content-wrapper h1 {
+.about-us-content-wrapper h1, .client-content-wrapper h1, .test-content-wrapper h1, .photo-content-wrapper h1, .menu-content-wrapper h1 {
+  font-size: 45px;
   text-shadow: 2px 3px #e4bd52;
   display: flex;
   justify-content: center;
@@ -129,11 +138,11 @@ p {
   text-transform: uppercase;
   color: #666;
 }
-.about-us-content-wrapper p, .test-content-wrapper p, .photo-content-wrapper p, .menu-content-wrapper p {
+.about-us-content-wrapper p, .client-content-wrapper p, .test-content-wrapper p, .photo-content-wrapper p, .menu-content-wrapper p {
+  margin-top: 5px;
   font-family: "Merienda", cursive;
-  margin-top: 15px;
   color: #666;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -205,6 +214,10 @@ p {
 }
 .icon-text p {
   text-align: center;
+}
+
+#space {
+  margin: 40px 0px;
 }
 
 /* * Offer Part * */
@@ -351,6 +364,10 @@ a:hover {
   -o-border-radius: 15px;
 }
 
+#menu-space {
+  margin-bottom: 70px;
+}
+
 /**Photo Gallary Start**/
 .photo-gallary-wrapper {
   margin: 50px 0px;
@@ -468,6 +485,55 @@ a:hover {
   -moz-transform: translate(-10%, -45%);
   -ms-transform: translate(-10%, -45%);
   -o-transform: translate(-10%, -45%);
+}
+
+.client-para {
+  font-family: "Merienda", cursive;
+  margin-top: 15px;
+  color: #666;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.slider img {
+  width: 100px;
+  height: 120px;
+}
+
+.client-area {
+  padding: 50px 0px 70px 0;
+}
+
+.slick-slide {
+  margin: 0 20px;
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img {
+  width: 100%;
+  display: block;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
 }
 
 /** Footer **/
