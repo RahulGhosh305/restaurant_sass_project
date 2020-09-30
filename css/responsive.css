@@ -1,7 +1,672 @@
-@media (min-width:992) and (max-width:1199.99) {}
+@media (min-width: 1200px) {
+    .container .container-fluid {
+        width: 100%;
+    }
+}
 
-@media (min-width:768) and (max-width:991.99) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container .container-fluid {
+        width: 100%;
+    }
 
-@media (min-width:576) and (max-width:767.99) {}
+    /** Header Part start**/
+    .site-heading {
+        font-size: 110px !important;
+    }
 
-@media (max-width:575) {}
+    .site-para {
+        font-size: 30px !important;
+
+    }
+
+    /** About Part start**/
+    .left-about {
+        width: 55%;
+    }
+
+    /** About paragraph **/
+    .about-para {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /** Gallary **/
+    .photos_item {
+        margin-left: 35px !important;
+    }
+
+    .photos_item img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /** Payment section **/
+    .payment {
+        margin-top: 50px;
+    }
+
+    /** services icons **/
+    .fd-icon {
+        width: 124px !important;
+        height: 115px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container .container-fluid {
+        width: 100%;
+    }
+
+    /** Header Part start**/
+    .header-wrapper {
+        height: 525px !important;
+    }
+
+    .site-heading {
+        font-size: 90px !important;
+    }
+
+    .site-para {
+        font-size: 25px !important;
+
+    }
+
+    /** About Part start**/
+
+    .left-about {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .right-about img {
+        margin: 0 auto;
+        width: 500px;
+        height: 400px;
+    }
+
+    /** About paragraph **/
+    .about-para {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+    .resize {
+        display: inline-block;
+        width: 25%;
+    }
+
+
+    /** Offer part **/
+    .offer-wrapper {
+        height: 400px !important;
+    }
+
+    .offer-title {
+        font-size: 32px;
+    }
+
+    .offer-subtitle {
+        font-size: 20px;
+    }
+
+    /** food card part **/
+    .card-one {
+        margin-top: 10px;
+        width: 48%;
+        float: left;
+        clear: right;
+    }
+
+    .card-two {
+        margin-top: 10px;
+        margin-left: 25px;
+        clear: both;
+        float: right;
+        width: 48%;
+    }
+
+    .card-three {
+        padding-top: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+        clear: both;
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    /** Gallary **/
+    .photos_item {
+        margin-left: 35px !important;
+    }
+
+    .photos_item img {
+        width: 275px;
+        height: 280px;
+    }
+
+    /** services icons **/
+    .fd-icon {
+        width: 125px !important;
+        height: 100px !important;
+    }
+
+    .icon-text p {
+        text-align: center;
+    }
+
+    /** Footer part **/
+
+    .icons_social {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .brand,
+    .contact-h,
+    address {
+        text-align: center;
+    }
+
+    /* address {
+        text-align: center;
+    } */
+
+    /** Payment section **/
+    .payment {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .icons_payment {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    /**Testimonial**/
+    /** Testimonial Head **/
+    .test_content {
+        width: 680px !important;
+    }
+
+    .testmonial {
+        left: 42% !important;
+    }
+
+    .test_para {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    .container .container-fluid {
+        width: 100%;
+    }
+
+    /** Navbar **/
+    .nav a {
+        font-size: 18px !important;
+        padding: 15px 8px !important;
+    }
+
+    /** Header Part start**/
+    .header-wrapper {
+        height: 500px !important;
+    }
+
+    .site-heading {
+        font-size: 60px !important;
+    }
+
+    .site-para {
+        font-size: 20px !important;
+
+    }
+
+    /** About Part start**/
+    /**common class for p**/
+    .para-center {
+        margin-left: 50px !important;
+        text-align: center !important;
+        width: 80%;
+        display: inline-block;
+    }
+
+    /**common class for h1**/
+    .about-us-content-wrapper h1,
+    .client-content-wrapper h1,
+    .test-content-wrapper h1,
+    .photo-content-wrapper h1,
+    .menu-content-wrapper h1 {
+        font-size: 30px !important;
+    }
+
+    .about-heading {
+        font-size: 25px !important;
+    }
+
+    .left-about {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .right-about img {
+        margin: 0 auto;
+        width: 400px;
+        height: 300px;
+    }
+
+    /** About paragraph **/
+    .about-para {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+    .resize {
+        display: inline-block;
+        width: 25%;
+    }
+
+
+    /** Offer part **/
+    .offer-wrapper {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    .offer-title {
+        font-size: 22px;
+    }
+
+    .offer-subtitle {
+        font-size: 16px;
+    }
+
+    a[type=button] {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /** food card part **/
+    .card-one {
+        margin-top: 10px;
+        width: 50%;
+        float: left;
+        clear: both;
+    }
+
+    .card-two {
+        margin-top: 10px;
+        width: 50%;
+        float: right;
+        clear: both;
+    }
+
+    .card-three {
+        padding-top: 20px;
+        margin: 0 auto;
+        margin-top: 10px;
+        clear: both;
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .menu_item {
+        font-size: 19px !important;
+    }
+
+    .menu_price {
+        font-size: 19px !important;
+        width: 75px !important;
+    }
+
+    /** Gallary **/
+    .photo_menu_list {
+        font-size: 14px !important;
+    }
+
+    .photos_item {
+        margin-left: 35px !important;
+    }
+
+    .photos_item img {
+        width: 185px;
+        height: 170px;
+    }
+
+    /* *Client part* */
+    .client-area {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .slide img {
+        width: 100px !important;
+        height: 80px !important;
+    }
+
+    /** services icons **/
+    .fd-icon {
+        width: 100px !important;
+        height: 90px !important;
+    }
+
+    .icon-text p {
+        text-align: center;
+    }
+
+    /** Footer part **/
+
+    .icons_social {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .brand,
+    .contact-h,
+    address {
+        text-align: center;
+    }
+
+    /* address {
+        text-align: center;
+    } */
+
+    /** Payment section **/
+    .payment {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .icons_payment {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    /**Testimonial**/
+    /** Testimonial Head **/
+    .test_content {
+        width: 400px !important;
+        padding: 25px 30px !important;
+    }
+
+    .Testimonial {
+        top: 5%;
+        left: 36%;
+    }
+
+    .testimonial_wrapper {
+        height: 450px !important;
+    }
+
+    .test_para {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .test_head {
+        font-size: 20px;
+    }
+
+    .line-space {
+        /** footer para **/
+        text-align: justify;
+    }
+
+    footer {
+        padding: 0px !important;
+    }
+
+    .brand {
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width:450px) and (max-width:575px) {
+    container .container-fluid {
+        width: 100%;
+    }
+
+    /** Navbar **/
+    .nav a {
+        flex-basis: 1;
+        font-size: 16px !important;
+        padding: 15px 2px !important;
+    }
+
+    /** Header Part start**/
+    .header-wrapper {
+        height: 400px !important;
+    }
+
+    .site-heading {
+        font-size: 40px !important;
+    }
+
+    .site-para {
+        font-size: 18px !important;
+
+    }
+
+    /** About Part start**/
+    /**common class for p**/
+    .para-center {
+        font-size: 18px;
+        margin-left: 50px !important;
+        text-align: center !important;
+        width: 80%;
+        display: inline-block;
+    }
+
+    /**common class for h1**/
+    .about-us-content-wrapper h1,
+    .client-content-wrapper h1,
+    .test-content-wrapper h1,
+    .photo-content-wrapper h1,
+    .menu-content-wrapper h1 {
+        font-size: 25px !important;
+    }
+
+    .left-about {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .right-about img {
+        margin: 0 auto;
+        width: 400px;
+        height: 300px;
+    }
+
+    /** About paragraph **/
+
+    .about-heading {
+        font-size: 20px;
+    }
+
+    .about-para {
+        display: none;
+    }
+
+    .clearfix {
+        overflow: auto;
+    }
+
+
+    /** Offer part **/
+    .offer-wrapper {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    .offer-title {
+        font-size: 22px;
+    }
+
+    .offer-subtitle {
+        font-size: 16px;
+    }
+
+    a[type=button] {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    /** food card part **/
+    .card-one {
+        margin-top: 10px;
+        width: 100%;
+        /* float: left;
+        clear: both; */
+    }
+
+    .card-two {
+        margin-top: 10px;
+        width: 100%;
+        /* float: right;
+        clear: both; */
+    }
+
+    .card-three {
+        /* padding-top: 20px; */
+        /* margin: 0 auto; */
+        margin-top: 10px;
+        /* clear: both; */
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .menu_item {
+        font-size: 19px !important;
+    }
+
+    .menu_price {
+        font-size: 19px !important;
+        width: 75px !important;
+    }
+
+    /** Gallary **/
+    .photo_menu_list {
+        font-size: 14px !important;
+        padding: 7px !important;
+    }
+
+    .photos_item {
+        margin-left: 35px !important;
+    }
+
+    .photos_item img {
+        max-width: 370px !important;
+        max-height: 370px !important;
+    }
+
+    /* *Client part* */
+    .client-area {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .slide img {
+        width: 100px !important;
+        height: 80px !important;
+    }
+
+    /** services icons **/
+    .fd-icon {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .resize {
+        display: inline-block;
+        width: 23.5%;
+    }
+
+    .icon-text {
+        width: 110px !important;
+        height: 130px !important;
+    }
+
+    .icon-text p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    /** Footer part **/
+
+    .icons_social {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .brand,
+    .contact-h,
+    address {
+        text-align: center;
+    }
+
+    /* address {
+        text-align: center;
+    } */
+
+    /** Payment section **/
+    .payment {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .icons_payment {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    /**Testimonial**/
+    /** Testimonial Head **/
+    .test_content {
+        width: 400px !important;
+        padding: 25px 30px !important;
+    }
+
+    .Testimonial {
+        top: 5%;
+        left: 36%;
+    }
+
+    .testimonial_wrapper {
+        height: 450px !important;
+    }
+
+    .test_para {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .test_head {
+        font-size: 20px;
+    }
+
+    .line-space {
+        /** footer para **/
+        text-align: justify;
+    }
+
+    footer {
+        padding: 0px !important;
+    }
+
+    .brand {
+        margin-top: 20px;
+    }
+}

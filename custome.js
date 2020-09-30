@@ -22,21 +22,20 @@ $("document").ready(function () {
     arrows: false,
     dots: false,
     pauseOnHover: false,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 6,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
           slidesToShow: 4,
         },
       },
       {
-        breakpoint: 576,
+        breakpoint: 577,
         settings: {
           slidesToShow: 3,
         },

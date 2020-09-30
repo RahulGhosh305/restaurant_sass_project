@@ -24,8 +24,10 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
   <!-- Main CSS links -->
-  <link rel="stylesheet" href="css/responsive.css" />
+
   <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="css/responsive.css" />
   <title>Foodies</title>
 </head>
 
@@ -33,7 +35,7 @@
   <!-- Navbar Start -->
   <section class="container-fluid">
     <div class="row">
-      <div class="col-xl-12">
+      <div class="col-lg-12">
         <nav class="fixed">
           <div class="navbar">
             <ul class="nav">
@@ -69,15 +71,15 @@
   <section class="about-us-wrapper" id="about">
     <div class="container">
       <div class="row mar-50 padT-80">
-        <div class="col-xl-12">
+        <div class="col-lg-12">
           <div class="about-us-content-wrapper">
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+            <p class="para-center">Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-7">
+        <div class="col-lg-7 left-about">
           <h2 class="about-heading">
             Welcome to <span id="tomato">food house!</span>
             <div class="after"></div>
@@ -91,23 +93,19 @@
             culpa molestias necessitatibus error odit. Lorem ipsum dolor sit,
             amet consectetur adipisicing elit. Culpa neque obcaecati earum
             reiciendis. Libero reiciendis quia quas tenetur? Modi vel minus
-            quasi aspernatur est quae ducimus hic laborum, blanditiis animi!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
-            expedita repellendus facilis rem, similique, exercitationem ea
-            quasi vero velit corporis laboriosam incidunt natus. Saepe,
-            voluptatibus doloribus id nulla obcaecati consectetur.
+            quasi aspernatur est quae, blanditiis animi!
           </p>
         </div>
-        <div class="col-xl-5">
+        <div class="col-lg-5">
           <figure class="right-about">
             <img src="image/about.jpg" alt="about us picture" />
           </figure>
         </div>
       </div>
       <div class="row" id="space">
-        <div class="col-xl-6">
-          <div class="row">
-            <div class="col-xl-3">
+        <div class="col-lg-8 left-about">
+          <div class="row clearfix">
+            <div class="col-lg-3 resize">
               <div class="icon-text">
                 <div class="fd-icon">
                   <i class="fa fa-truck fa-4x" aria-hidden="true"></i>
@@ -115,7 +113,7 @@
                 <p>Shipping</p>
               </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-lg-3 resize">
               <div class="icon-text">
                 <div class="fd-icon">
                   <i class="fa fa-comments fa-4x" aria-hidden="true"></i>
@@ -123,7 +121,7 @@
                 <p>Chatting</p>
               </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-lg-3 resize">
               <div class="icon-text">
                 <div class="fd-icon">
                   <i class="fa fa-shopping-basket fa-4x" aria-hidden="true"></i>
@@ -131,7 +129,7 @@
                 <p>Order</p>
               </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-lg-3 resize">
               <div class="icon-text">
                 <div class="fd-icon">
                   <i class="fa fa-life-ring fa-4x" aria-hidden="true"></i>
@@ -141,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-6"></div>
+        <div class="col-lg-4 right-about"></div>
       </div>
     </div>
   </section>
@@ -168,20 +166,20 @@
   <!-- Menu Start -->
   <section class="container" id="menu">
     <div class="row" id="menu-space">
-      <div class="col-xl-12">
+      <div class="col-lg-12">
         <div class="menu-content-wrapper padT-80">
           <h1>Food menu</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+          <p class="para-center">Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xl-4">
+    <div class="row clearfix">
+      <div class="col-lg-4 card-one">
         <div class="food_card">
           <h3 class="food_cate">Breakfast</h3>
           <ul class="menu">
             <li class="menu_item">
-              Artisan breads <span class="menu_price">$29.99</span>
+              Breads <span class="menu_price">$29.99</span>
             </li>
             <li class="menu_item">
               Pasta <span class="menu_price">$49.99</span>
@@ -198,7 +196,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-xl-4">
+      <div class="col-lg-4 card-two">
         <div class="food_card">
           <h3 class="food_cate">Lunches</h3>
           <ul class="menu">
@@ -209,10 +207,10 @@
               Hot Dogs <span class="menu_price">$44.99</span>
             </li>
             <li class="menu_item">
-              Grilled Chicken <span class="menu_price">$79.99</span>
+              Chicken <span class="menu_price">$79.99</span>
             </li>
             <li class="menu_item">
-              Alfredo Sauce <span class="menu_price">$35.99</span>
+              Alfredo <span class="menu_price">$35.99</span>
             </li>
             <li class="menu_item">
               Muffins<span class="menu_price">$55.99</span>
@@ -220,8 +218,8 @@
           </ul>
         </div>
       </div>
-      <div class="col-xl-4">
-        <div class="food_card">
+      <div class="col-lg-4 card-three">
+        <div class="food_card ">
           <h3 class="food_cate">Dinners</h3>
           <ul class="menu">
             <li class="menu_item">
@@ -250,16 +248,16 @@
   <section class="photo-gallary-wrapper padT-80" id="gallary">
     <div class="container">
       <div class="row mar-50">
-        <div class="col-md-12">
+        <div class="col-lg-12">
           <div class="photo-content-wrapper">
             <h1>Photo Gallary</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+            <p class="para-center">Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
           </div>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12">
           <!-- isotope start -->
           <div class="photo_menu portfolio_menu">
             <ul>
@@ -272,11 +270,14 @@
               <li class="photo_menu_list" data-filter=".drink">Drinks</li>
             </ul>
           </div>
-
-          <!-- Content -->
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="row">
+        <div class="col-lg-12">
           <div class="photos portfolio_item">
-            <div class="photos_item breakfast element-item">
-              <img src="image/breakfast-1.jpg" alt="breakfast1" />
+            <div class="photos_item dinner element-item">
+              <img src="image/dinner-4.jpg" alt="dinner4" />
             </div>
             <div class="photos_item lunches element-item">
               <img src="image/lunch-1.jpg" alt="lunches1" />
@@ -317,8 +318,8 @@
             <div class="photos_item lunches element-item">
               <img src="image/lunch-4.jpg" alt="lunches4" />
             </div>
-            <div class="photos_item dinner element-item">
-              <img src="image/dinner-4.jpg" alt="dinner4" />
+            <div class="photos_item breakfast element-item">
+              <img src="image/breakfast-1.jpg" alt="breakfast1" />
             </div>
           </div>
         </div>
@@ -331,10 +332,10 @@
   <section class="container-fluid" id="testimonials">
     <div class="">
       <div class="row">
-        <div class="col-xl-12">
+        <div class="col-lg-12">
           <div class="test-content-wrapper padT-80 mar-50">
             <h1>Testimonial</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+            <p class="para-center">Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
           </div>
         </div>
       </div>
@@ -368,7 +369,7 @@
     <div class="container">
       <div class="client-content-wrapper mar-50">
         <h1>client</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
+        <p class="para-center">Lorem ipsum dolor sit amet consectetur adipisicing el!</p>
       </div>
       <section class="logo-area slider">
         <div class="slide"><img src="image/1.png" alt="1" /></div>
@@ -392,7 +393,7 @@
   <footer>
     <div class="container content">
       <div class="row">
-        <div class="col-xl-7">
+        <div class="col-lg-7">
           <h2 class="brand">Foodies</h2>
           <p class="line-space mar-50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -416,7 +417,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-xl-5">
+        <div class="col-lg-5">
           <h4 class="contact-h">Contact Us</h4>
           <address>
             KandirPar, Nazrul Avenue, 56 road Cumilla <br />
