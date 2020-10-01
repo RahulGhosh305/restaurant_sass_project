@@ -28,7 +28,7 @@
     left: 50%;
     position: absolute;
     padding: 50px 40px;
-    width: 850px;
+    width: 80%;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -60,11 +60,11 @@
     font-weight: 700;
     position: absolute;
     top: 10%;
-    left: 45%;
-    transform: translate(-10%, -45%);
+    left: 40%;
+    transform: translate(-10%, -40%);
     color: #fff;
-    -webkit-transform: translate(-10%, -45%);
-    -moz-transform: translate(-10%, -45%);
-    -ms-transform: translate(-10%, -45%);
-    -o-transform: translate(-10%, -45%);
+    -webkit-transform: translate(-10%, -40%);
+    -moz-transform: translate(-10%, -40%);
+    -ms-transform: translate(-10%, -40%);
+    -o-transform: translate(-10%, -40%);
 }

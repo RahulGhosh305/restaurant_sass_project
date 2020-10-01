@@ -25,7 +25,7 @@ $("document").ready(function () {
     responsive: [{
         breakpoint: 992,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 5,
         },
       },
       {
@@ -38,6 +38,12 @@ $("document").ready(function () {
         breakpoint: 577,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 321,
+        settings: {
+          slidesToShow: 2,
         },
       },
     ],
